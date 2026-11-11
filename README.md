@@ -1,4 +1,4 @@
-# BCP Team Repository
+# BCP Repository
 
 Welcome to our official project repository for **[Software Engineering]**. This repository holds our lab submissions, topic brainstorming notes, and project documentation.
 
