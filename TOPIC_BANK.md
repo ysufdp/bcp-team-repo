@@ -22,3 +22,13 @@
 * Implement a threshold-based actuated controller with minimum green, maximum green, yellow, and fail-safe fallback to fixed-time.
 * Evaluate in SUMO against fixed-time control using average waiting time, queue length, and throughput under light, moderate, and heavy traffic.
 * Build a small prototype (LEDs driven by an Arduino or ESP32) to demonstrate the logic.
+
+# Topic 3
+
+## Municipal Waste Collection Scheduling Using Greedy Allocation Algorithms and Machine Learning Demand Forecasting
+
+* Forecast District Waste Demand Accurately: Build and train a supervised machine learning regression model (such as Random Forest or Gradient Boosting) using temporal, weather, and historical volume features to predict district-level waste generation with low error (measured via MAE and RMSE).
+* Generate Capacity-Aware Pickup Schedules: Implement a greedy allocation algorithm that ranks collection zones by predicted demand, overflow urgency, and estimated service/travel effort, assigning pickups to available trucks without exceeding load or shift constraints.
+* Reduce Uncollected & Overflowing Waste: Demonstrate through simulation experiments that the ML-and-greedy scheduling workflow leaves less uncollected or overflowing waste in high-demand zones compared to a static, fixed-interval baseline schedule.
+* Maintain Fast Scheduling Execution & Low Overhead: Ensure the forecasting and greedy scheduling pipeline runs quickly on standard hardware (e.g., sub-second to a few seconds per schedule generation) using clean, modular Python code and lightweight data storage.
+* Provide an Interactive Schedule & Metric View: Develop a simple, functional software interface (web dashboard or desktop/CLI tool) that lets users input or update fleet/zone parameters, generate schedules on demand, and inspect side-by-side comparisons of baseline versus greedy allocation metrics.
