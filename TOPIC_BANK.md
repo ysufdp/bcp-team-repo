@@ -32,3 +32,14 @@
 * Reduce Uncollected & Overflowing Waste: Demonstrate through simulation experiments that the ML-and-greedy scheduling workflow leaves less uncollected or overflowing waste in high-demand zones compared to a static, fixed-interval baseline schedule.
 * Maintain Fast Scheduling Execution & Low Overhead: Ensure the forecasting and greedy scheduling pipeline runs quickly on standard hardware (e.g., sub-second to a few seconds per schedule generation) using clean, modular Python code and lightweight data storage.
 * Provide an Interactive Schedule & Metric View: Develop a simple, functional software interface (web dashboard or desktop/CLI tool) that lets users input or update fleet/zone parameters, generate schedules on demand, and inspect side-by-side comparisons of baseline versus greedy allocation metrics.
+
+# Topic 4
+
+## Enhancing Technical Indicator-Based Trading Signals with News and Announcement Sentiment: A Comparative Evaluation of Machine Learning Models on Selected Stocks
+
+* Collect and align historical price data with timestamped news and announcements.
+* Implement technical indicators and baseline rule-based signals.
+* Apply FinBERT to produce sentiment and event features.
+* Train and compare LightGBM, Random Forest, Logistic Regression, and LSTM using walk-forward validation.
+* Evaluate predictions and backtest results against indicator-only and buy-and-hold baselines.
+* Build a dashboard that shows signals with explanations and a clear "not financial advice" notice.
