@@ -6,10 +6,10 @@ We add one entry after every lab (Labs 01 to 10) using the template from the Lab
 
 | Idea | Paradigm | Lab | Interest | Feasibility | Status |
 | --- | --- | --- | --- | --- | --- |
-| Calamba TransitPredict: travel time prediction and multimodal route recommendation | Classical machine learning, graph routing | 01 | 4 | 4 | Shortlisted (Week 1) |
-| Calamba AdaptiveSignal: vision-based adaptive traffic signal control | Computer vision (YOLO), simulation | 01 | 4 | 3 | Shortlisted (Week 1) |
-| Calamba WasteRoute: municipal waste collection scheduling with ML forecasting | Classical machine learning, greedy optimization | 01 | 5 | 4 | Shortlisted (Week 1) |
-| SentimTrade: stock trading signals enhanced with news sentiment | NLP (FinBERT), time-series ML | 01 | 3 | 4 | Shortlisted (Week 1) |
+| Calamba TransitPredict: travel time prediction and multimodal route recommendation | Classical machine learning, graph routing | 01 | 5 | 4 | Shortlisted (Week 1) |
+| Calamba AdaptiveSignal: vision-based adaptive traffic signal control | Computer vision (YOLO), simulation | 01 | 5 | 3 | Shortlisted (Week 1) |
+| Calamba WasteRoute: municipal waste collection scheduling with ML forecasting | Classical machine learning, greedy optimization | 01 | 4 | 4 | Shortlisted (Week 1) |
+| SentimTrade: stock trading signals enhanced with news sentiment | NLP (FinBERT), time-series ML | 01 | 5 | 4 | Shortlisted (Week 1) |
 
 ---
 
@@ -45,7 +45,7 @@ Four raw ideas from the paradigm tour. Breadth over polish.
 - **Data needed:** Historical district waste volume records, temporal calendars, weather data, and fleet capacity/zone parameters.
 - **Compute needed:** Laptop (Python, scikit-learn) for forecasting, greedy scheduling simulation, and an interactive web/desktop dashboard.
 - **Biggest risk:** Obtaining granular historical waste volume records per district from local municipal offices.
-- **Team interest:** 3/5 · **Feasibility:** 4/5
+- **Team interest:** 4/5 · **Feasibility:** 4/5
 
 ### 4. SentimTrade: stock trading signals enhanced with news sentiment
 
@@ -55,4 +55,4 @@ Four raw ideas from the paradigm tour. Breadth over polish.
 - **Data needed:** Historical stock price series aligned with timestamped financial news and company announcements.
 - **Compute needed:** Colab GPU for FinBERT inference and LSTM training; laptop for walk-forward backtesting and dashboard display.
 - **Biggest risk:** Look-ahead bias in timestamp alignment and lower thesis novelty compared to localized community-impact problems.
-- **Team interest:** 3/5 · **Feasibility:** 4/5
+- **Team interest:** 5/5 · **Feasibility:** 4/5
