@@ -25,7 +25,7 @@ Four raw ideas from the paradigm tour. Breadth over polish.
 - **Data needed:** Crowdsourced GPS trip logs and open road/transit data for selected Calamba corridors, labeled by peak, off-peak, and rainy conditions.
 - **Compute needed:** Laptop (Python, scikit-learn / LightGBM) for model training and routing simulation.
 - **Biggest risk:** Collecting enough representative crowdsourced GPS trajectories across varied weather and peak conditions.
-- **Team interest:** 4/5 · **Feasibility:** 4/5
+- **Team interest:** 5/5 · **Feasibility:** 4/5
 
 ### 2. Calamba AdaptiveSignal: vision-based adaptive traffic signal control
 
@@ -35,7 +35,7 @@ Four raw ideas from the paradigm tour. Breadth over polish.
 - **Data needed:** Annotated intersection video frames from a Calamba intersection covering peak, off-peak, night, and rainy conditions.
 - **Compute needed:** Colab GPU for fine-tuning YOLO models; laptop for SUMO traffic simulation; Arduino or ESP32 with LEDs for the logic prototype.
 - **Biggest risk:** Reduced vehicle detection accuracy during heavy rain or low-light night conditions, and securing clear intersection footage.
-- **Team interest:** 4/5 · **Feasibility:** 3/5
+- **Team interest:** 5/5 · **Feasibility:** 3/5
 
 ### 3. Calamba WasteRoute: municipal waste collection scheduling with ML forecasting
 
@@ -45,7 +45,7 @@ Four raw ideas from the paradigm tour. Breadth over polish.
 - **Data needed:** Historical district waste volume records, temporal calendars, weather data, and fleet capacity/zone parameters.
 - **Compute needed:** Laptop (Python, scikit-learn) for forecasting, greedy scheduling simulation, and an interactive web/desktop dashboard.
 - **Biggest risk:** Obtaining granular historical waste volume records per district from local municipal offices.
-- **Team interest:** 5/5 · **Feasibility:** 4/5
+- **Team interest:** 3/5 · **Feasibility:** 4/5
 
 ### 4. SentimTrade: stock trading signals enhanced with news sentiment
 
